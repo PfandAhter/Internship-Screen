@@ -13,6 +13,80 @@
   }
 }
 
+body{
+  background-color: black;
+  color: white;
+}
+
+.button-container {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5c0104;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ef0303;
+  color:black;
+}
+
+.custom-table .ant-table-thead > tr > th{
+  background-color: #5c0104;
+  color: white;
+}
+
+.custom-table .ant-table-thead > tr >th:hover {
+  background-color: #5c0104;
+  color: white;
+}
+
+
+
+.custom-table .ant-table {
+  border-color: white;
+}
+.custom-table .ant-table-tbody > tr > td{
+  border-color: white;
+}
+.custom-table .ant-table-column-sorters:hover{
+  color:inherit;
+}
+
+.custom-table .ant-table-column-sorter-up.active .anticon {
+  color: inherit;
+}
+
+.custom-table .ant-table-column-sorter-down.active .anticon {
+  color: inherit;
+}
+
+
+.custom-reserve-button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5c0104;
+  color:white;
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.custom-reserve-button:hover{
+  background-color: #ef0303;
+  color:black;
+}
+
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,7 +95,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #dd0000;
 }
 
 .App-link {

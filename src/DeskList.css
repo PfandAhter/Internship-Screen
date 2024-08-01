@@ -1,0 +1,19 @@
+
+.table-container{
+    margin-top: 30px;
+    width: 100%;
+    overflow-x: auto;
+    /*    background-color: #5c0104;
+        color: white;*/
+
+}
+
+.table-container .ant-table-thead > tr > th{
+    background-color: #5c0104;
+    color: white;
+}
+
+.table-container .ant-table-thead > tr >th:hover {
+    background-color: #5c0104;
+    color: white;
+}

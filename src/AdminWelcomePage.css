@@ -1,0 +1,57 @@
+.admin-welcome-page {
+    background-color: lightblue;
+    color: black;
+    height: 100vh; /* Yüksekliği tam ekran yapmak için */
+    display: flex;
+    flex-direction: column; /* Esnek kutu öğelerini dikey hizalamak için */
+    justify-content: flex-start; /* Üstte hizalamak için */
+    font-size: 40px;
+    align-items: center; /* Yatayda ortalamak için */
+    text-align: center;
+    padding-top: 20px; /* Üstten biraz boşluk bırakmak için */
+}
+
+.button-container {
+    margin-top: 120px; /* Yazının altına biraz boşluk bırakmak için */
+    display: flex;
+    flex-direction: column; /* Butonları dikey olarak hizalamak için */
+    gap: 100px; /* Butonlar arasında boşluk bırakmak için */
+}
+
+.button {
+    padding: 20px 80px;
+    font-size: 40px;
+    width: 700px;
+    background-color: #5c0104; /* Butonun arka plan rengi */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Link gibi görünmesini engellemek için */
+}
+
+.logout-button{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 20px;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #5c0104;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover{
+    background-color: #dd0000;
+
+}
+
+.button:hover {
+    background-color: #dd0000; /* Butona hover efekti */
+}
